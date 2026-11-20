@@ -16,6 +16,28 @@
   <meta property="og:title" content="Vestend LLC — Software, E-Learning &amp; Ebooks">
   <meta property="og:description" content="Discover Vestend LLC's innovative software, e-learning courses, and ebooks to elevate your skills and knowledge.">
   <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://vestend.com/images/vintage-mid-century-travel-poster-1.jpg">
+
+  <!-- Location: Utah and Nevada -->
+  <meta name="geo.placename" content="Utah and Nevada, United States">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Vestend LLC",
+    "url": "https://vestend.com",
+    "email": "info@vestend.com",
+    "description": "Vestend LLC publishes software, e-learning courses, and ebooks.",
+    "areaServed": [
+      { "@type": "State", "name": "Utah" },
+      { "@type": "State", "name": "Nevada" }
+    ],
+    "location": [
+      { "@type": "Place", "address": { "@type": "PostalAddress", "addressRegion": "UT", "addressCountry": "US" } },
+      { "@type": "Place", "address": { "@type": "PostalAddress", "addressRegion": "NV", "addressCountry": "US" } }
+    ]
+  }
+  </script>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -68,24 +90,8 @@
       padding: 2rem 1rem;
       background:
         linear-gradient(var(--overlay), var(--overlay)),
-        url("/images/1168%2CB5/29302123/vintage-mid-century-travel-poster-1-874JmNh-vWP-5UiCc37XBA.jpg") center / cover no-repeat,
+        url("/images/vintage-mid-century-travel-poster-1.jpg") center / cover no-repeat,
         linear-gradient(135deg, #2b3a55, #1b2230);
-    }
-    @media (max-width: 975px) {
-      .hero {
-        background-image:
-          linear-gradient(var(--overlay), var(--overlay)),
-          url("/images/976%2CB5/29302123/vintage-mid-century-travel-poster-1-874JmNh-vWP-5UiCc37XBA.jpg"),
-          linear-gradient(135deg, #2b3a55, #1b2230);
-      }
-    }
-    @media (max-width: 575px) {
-      .hero {
-        background-image:
-          linear-gradient(var(--overlay), var(--overlay)),
-          url("/images/576%2CB5/29302123/vintage-mid-century-travel-poster-1-874JmNh-vWP-5UiCc37XBA.jpg"),
-          linear-gradient(135deg, #2b3a55, #1b2230);
-      }
     }
 
     .card {
